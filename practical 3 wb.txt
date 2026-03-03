@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Webpage</title>
+</head>
+<body>
+
+<marquee>Welcome to My Webpage</marquee>
+
+<h1>My Basic Page</h1>
+
+<p>This is <b>bold</b> and <i>italic</i> text.</p>
+
+<h3>Unordered List</h3>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+
+<h3>Ordered List</h3>
+<ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+</ol>
+
+<h3>Description List</h3>
+<dl>
+    <dt>HTML</dt>
+    <dd>Markup Language</dd>
+</dl>
+
+<p><a href="#contact">Internal Link</a></p>
+<p><a href="https://www.google.com">External Link</a></p>
+<p><a href="mailto:test@gmail.com">Email Link</a></p>
+
+<img src="https://via.placeholder.com/150" alt="Sample Image">
+
+<h3 id="contact">Contact Section</h3>
+<p>Email: test@gmail.com</p>
+
+</body>
+</html>
