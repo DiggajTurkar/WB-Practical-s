@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarship / Seminar Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 50%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 2px solid #6c63ff;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #6c63ff;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select {
+            padding: 5px;
+            margin-top: 5px;
+            width: 95%;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            background-color: #6c63ff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #4a47a3;
+        }
+
+        .header-img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Image -->
+    <img src="https://c8.alamy.com/comp/2BG0922/seminar-banner-template-seminar-ribbon-label-sign-2BG0922.jpg" alt="Seminar Banner" class="header-img">
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Details</legend>
+
+            <label for="course">Course:</label><br>
+            <select id="course" required>
+                <option value="">--Select--</option>
+                <option>B.Tech</option>
+                <option>B.Sc</option>
+                <option>BCA</option>
+                <option>M.Tech</option>
+            </select><br><br>
+
+            <label>Year:</label><br>
+            <input type="radio" name="year" id="fy" required>
+            <label for="fy">First Year</label>
+
+            <input type="radio" name="year" id="sy">
+            <label for="sy">Second Year</label>
+
+            <input type="radio" name="year" id="ty">
+            <label for="ty">Third Year</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seminar Preferences</legend>
+
+            <label>Topics:</label><br>
+            <input type="checkbox" id="ai">
+            <label for="ai">AI</label><br>
+
+            <input type="checkbox" id="web">
+            <label for="web">Web Development</label><br>
+
+            <input type="checkbox" id="data">
+            <label for="data">Data Science</label><br><br>
+        </fieldset>
+
+        <div class="buttons">
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
