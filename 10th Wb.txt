@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website and Map Embed</title>
+</head>
+
+<body>
+
+<h2>Embedded Website</h2>
+
+<iframe 
+    src="https://www.google.org" 
+    width="100%" 
+    height="300" 
+    style="border:1px solid black;">
+</iframe>
+
+<br><br>
+
+<h2>Google Map (Nagpur)</h2>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14878.634261389756!2d78.98001073680645!3d21.205718342688794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4ea22601b5df1%3A0xeb167b0a0debd54a!2sFetri%2C%20Maharashtra%20441501!5e0!3m2!1sen!2sin!4v1776765868151!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgradewidth="100%" 
+    height="400""></iframe>"
+    
+
+
+</body>
+</html>
